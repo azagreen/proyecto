@@ -125,6 +125,8 @@ header {
 .header-left p{
     float:right;
     color:white;
+    position:relative;
+    top: 15px;
 }
 
 .header-right {
@@ -164,17 +166,49 @@ h2 {
 .lesson {
     float:left;
     width:25%;
+    padding: 0px 30px;
 }
 
 .lesson-icon {
     position:relative;
 }
 
+.circular-square1 {
+    border-radius: 50%;
+    width:250px;
+    height:200px;
+}
+
+.circular-square2 {
+    border-radius:50%;
+    width:250px;
+    height:200px;
+}
+
+.circular-square3 {
+    border-radius:50%;
+    width:250px;
+    height:200px;
+}
+
+.circular-square4 {
+    border-radius:50%;
+    width:250px;
+    height:200px;
+}
+
 .lesson-icon p {
-    position:absolute;
-    top:80px;
-    width:100%;
-    color:white;
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    color: white;
+    background-color:burlywood;
+    opacity:0.8;
+    border-radius:6px;
+}
+
+.lesson-icon p:hover {
+    background-color: #a87533
 }
 
 .txt-contents {
@@ -212,17 +246,23 @@ input {
     cursor:pointer;
 }
 
-footer img {
+.footer-left img {
     width:125px;
 }
 
-footer p {
+.footer-left p {
     color: #b3aeb5;
     font-size:18px;
     display:inline-block;
-    position:absolute;  
+    position:relative;
+    bottom:70px;
 }
 
+.footer-right {
+    float:right;   
+    margin-right: 25px;
+    margin-top: -100px;
+}
 
 footer {
     padding-top:10px;
